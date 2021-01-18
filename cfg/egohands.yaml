@@ -1,10 +1,12 @@
 egohands:
     camera:
         topic: /camera/color/image_raw/compressed
+    depth:
+        topic: /camera/aligned_depth_to_color/image_raw/compressed
     interface:
         topic: /egohands/topic
         service: /egohands/service
         action: /egohands/action
     visualization: 
-        topic: /egohands/visualization
-        activated: False
+        topic: /camera/color/visualization
+        activated: True
