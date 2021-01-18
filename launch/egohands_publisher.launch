@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
 <launch>
   <rosparam command="load" file="$(find egohands_ros)/cfg/egohands.yaml" />
-  <node name="egohands_publisher" pkg="egohands_ros" type="egohands_publisher.py" output="screen" />
+  <node name="egohands_publisher" pkg="egohands_ros" type="egohands_publisher_sli.py" output="screen" />
 </launch>
