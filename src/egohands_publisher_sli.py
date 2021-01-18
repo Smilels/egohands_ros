@@ -12,7 +12,7 @@ import message_filters
 from sensor_msgs.msg import Image, CompressedImage
 # Ros egohands
 from helper_CSAILVision.lib.segmentation import hand_segmentation, module_init
-from IPython import embed
+
 
 class Egohands:
     def __init__(self):
